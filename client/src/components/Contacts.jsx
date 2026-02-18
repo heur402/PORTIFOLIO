@@ -132,7 +132,7 @@ const Contacts = ({ darkMode }) => {
                               focus:border-orange-500 focus:ring-2 focus:ring-orange-500/20 transition-all'
                               required
                           />
-                          {/* submit button */}
+                          {/* submit btn */}
                           <button
                               type='submit'
                               style={{

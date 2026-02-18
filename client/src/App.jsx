@@ -8,6 +8,7 @@ import About from './components/About'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Contacts from './components/Contacts'
+import Footer from './components/Footer'
 
 function App() {
   const [darkMode, setdarkMode] = useState(true)
@@ -34,7 +35,7 @@ function App() {
         });
       },
       {
-        threshold: 0.6, // section must be 60% visible
+        threshold: 0.25, // section must be 60% visible
       }
     );
 
@@ -69,7 +70,8 @@ function App() {
       <About darkMode={darkMode}/>
       <Skills darkMode={darkMode} />
       <Projects darkMode={darkMode} />
-      <Contacts darkMode={darkMode}/>
+      <Contacts darkMode={darkMode} />
+      <Footer darkMode={darkMode} />
     </div>
   )
 }
