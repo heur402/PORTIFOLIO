@@ -193,7 +193,9 @@ const Projects = ({ darkMode }) => {
                 {/* VIEW ALL */}
                 <div className="text-center mt-16">
                     <a
-                        href="#"
+                        href="https://github.com/heur402"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="inline-flex items-center gap-3 px-8 py-4 rounded-full text-white font-semibold transition hover:scale-105"
                         style={{
                             background: 'linear-gradient(to right, #f97316, #f59e0b)'

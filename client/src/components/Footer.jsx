@@ -21,7 +21,7 @@ const Footer = ({ darkMode }) => {
                                 background: 'linear-linear(to right, #f97316, #f59e0b)',
                             }}
                         >
-                            Portifolio
+                            BonheurLabs
                         </h3>
                         <p
                             className='text-sm'
@@ -35,7 +35,9 @@ const Footer = ({ darkMode }) => {
                     <div className='flex gap-4'>
                         {/* github logo */}
                         <a
-                            href="#"
+                            href="https://github.com/heur402"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className='w-10 h-10 rounded-full flex items-center justify-center hover:scale-110 trasnsition-all 
                           hover:bg-linear-to-r hover:from-orange-500 hover:to-amber-500 hover:text-white
                           bg-[#374151] dark:bg-[#f3f4f6] text-white dark:text-[#374151]'
@@ -44,16 +46,20 @@ const Footer = ({ darkMode }) => {
                         </a>
                         {/* linkedin logo */}
                         <a
-                            href="#"
+                            href="https://www.linkedin.com/in/byiringiro-bonheur-608a68338/"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className='w-10 h-10 rounded-full flex items-center justify-center hover:scale-110 trasnsition-all 
                           hover:bg-linear-to-r hover:from-orange-500 hover:to-amber-500 hover:text-white
                           bg-[#374151] dark:bg-[#f3f4f6] text-white dark:text-[#374151]'
                         >
                             <FaLinkedin />
                         </a>
-                        {/* github logo */}
+                        {/* Twitter logo */}
                         <a
-                            href="#"
+                            href="https://x.com/Bon01fra"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className='w-10 h-10 rounded-full flex items-center justify-center hover:scale-110 trasnsition-all 
                           hover:bg-linear-to-r hover:from-orange-500 hover:to-amber-500 hover:text-white
                           bg-[#374151] dark:bg-[#f3f4f6] text-white dark:text-[#374151]'
@@ -62,7 +68,9 @@ const Footer = ({ darkMode }) => {
                         </a>
                         {/* instagram logo */}
                         <a
-                            href="#"
+                            href="https://www.instagram.com/b._bonheur/"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className='w-10 h-10 rounded-full flex items-center justify-center hover:scale-110 trasnsition-all 
                           hover:bg-linear-to-r hover:from-orange-500 hover:to-amber-500 hover:text-white
                           bg-[#374151] dark:bg-[#f3f4f6] text-white dark:text-[#374151]'

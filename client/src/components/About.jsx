@@ -51,10 +51,8 @@ const About = ({ darkMode }) => {
                         data-aos="fade-up"
                         data-aos-delay="500"
                     >
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis
-                        quod veritatis voluptas, nisi eligendi sequi tenetur. Fugiat quae in
-                        unde laboriosam voluptas provident dolores ducimus ratione. Debitis
-                        iste nemo illum?
+                        I am Bonheur Byiringiro, a passionate software developer who enjoys building modern, responsive, and user-friendly web applications. I focus on turning ideas into real digital solutions that help businesses and users solve real-world problems. I work with technologies such as JavaScript, React, Vue.js, HTML, and CSS, and I am continuously improving my backend and security engineering skills. I am dedicated to writing clean, efficient code and learning new technologies to grow as a developer. I am always open to learning opportunities, collaboration, and working on exciting projects that create real impact.
+
                     </p>
                     <div
                         className="flex flex-wrap justify-center lg:justify-start gap-4
@@ -114,7 +112,7 @@ const About = ({ darkMode }) => {
                         data-aos='fade-up'
                         data-aos-delay='800'
                     >
-                        Learn More 
+                        Learn More
                     </button>
                 </article>
             </div>

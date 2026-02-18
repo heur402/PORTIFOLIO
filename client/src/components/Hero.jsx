@@ -80,7 +80,7 @@ const Hero = ({ darkMode }) => {
                             data-aos='fade-up'
                             data-aos-delay='600'
                         >
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium at aperiam, reiciendis enim vel voluptate consequatur magnam aliquam minima, officiis aspernatur, exercitationem explicabo fuga adipisci laboriosam aliquid quia? Corrupti, praesentium.
+                            I design and develop modern web experiences, focusing on clean code, performance, and great user experience. For me, coding is more than a skill. it’s something that gives meaning to what I create and who I am as a developer.
                         </p>
 
                         {/* Buttons */}

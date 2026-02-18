@@ -88,7 +88,7 @@ const Skills = ({ darkMode }) => {
                                 color: darkMode ? "#d1d5db" : "#4b5563",
                             }}
                         >
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos
+                            The Progress of my language studies
                         </p>
                     </div>
                     <div
