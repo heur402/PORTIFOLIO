@@ -119,7 +119,7 @@ const NavBar = ({ darkMode, toggleDarkMode, activeSection }) => {
                 <Moon className="w-5 h-5 text-gray-700" />
               )}
             </motion.button>
-            {/* Button */}
+            {/* Btn */}
             <motion.a
               href="https://wa.me/+250796577776"
               target="_blank"
