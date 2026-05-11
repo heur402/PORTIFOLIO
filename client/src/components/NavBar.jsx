@@ -121,6 +121,8 @@ const NavBar = ({ darkMode, toggleDarkMode, activeSection }) => {
             </motion.button>
             {/* Button */}
             <motion.a
+              href="https://wa.me/+250796577776"
+              target="_blank"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className={`hidden lg:block px-6 py-2 font-semibold rounded-full bg-linear-to-r ${colors.button}
@@ -195,7 +197,8 @@ const NavBar = ({ darkMode, toggleDarkMode, activeSection }) => {
                 </a>
               ))}
               <motion.a
-                href="#contact"
+                href="https://wa.me/+250796577776"
+                target="_blank"
                 onClick={() => setIsMenuOpen(false)}
                 whileTap={{ scale: 0.95 }}
                 className={`block py-3 px-4 text-center font-semibold rounded-lg bg-linear-to-r
